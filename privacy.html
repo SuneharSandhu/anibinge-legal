@@ -17,53 +17,90 @@
 </head>
 <body>
   <h1>AniBinge — Privacy Policy</h1>
-  <p class="updated">Last updated: June 21, 2026</p>
+  <p class="updated">Last updated: October 14, 2026</p>
 
   <p>AniBinge ("the app") is an unofficial, third-party client for AniList that helps you
-  track the anime you watch. This policy explains what data the app handles and why. AniBinge
-  is developed by Sunehar Sandhu. Questions: <a href="mailto:anibinge.official@gmail.com">anibinge.official@gmail.com</a>.</p>
+  track the anime you watch. This policy explains what data the app handles, why, and the
+  choices you have. AniBinge is developed by Sunehar Sandhu, who is responsible for the data
+  described here (the "controller" under EU and UK data protection law). Questions:
+  <a href="mailto:anibinge.official@gmail.com">anibinge.official@gmail.com</a>.</p>
 
   <p><strong>Summary:</strong> AniBinge does not run its own servers that store your data, does
   not sell your data, shows no ads, and performs no cross-app tracking. Your anime list lives on
-  your AniList account and in a local cache on your device.</p>
+  your AniList account and in a local cache on your device. The only data that leaves your
+  device for a service other than AniList is anonymous crash diagnostics.</p>
 
   <h2>Your AniList account</h2>
   <p>To use AniBinge you connect your AniList account through AniList's own secure sign-in page
   (OAuth). After you sign in, AniBinge receives an access token, which is stored only in the
   iOS Keychain on your device. The token is used solely to read and update your anime list
   (status, episode progress, scores) on AniList on your behalf. We never see your AniList
-  password, and the token is never sent to any server we operate.</p>
+  password, and the token is never sent to any server we operate. Requests the app makes to
+  AniList, including loading cover images, are handled by AniList under its own terms and
+  privacy policy.</p>
 
   <h2>Your list data</h2>
   <p>Your AniList list (titles, watch status, episode progress, scores) is cached locally on
-  your device — including in a shared app group container so that home-screen widgets and Live
+  your device, including in a shared app group container so that home-screen widgets and Live
   Activities can display it. This cached copy exists only on your device; the authoritative copy
-  lives on AniList. AniBinge does not transmit your list to any third party.</p>
+  lives on AniList. AniBinge does not transmit your list to any third party. Notifications and
+  Live Activities are created on your device; no push server is involved.</p>
+
+  <h2>Purchases</h2>
+  <p>AniBinge Pro is sold through Apple's App Store. Apple processes your payment; we never
+  receive your payment details, name, or Apple ID. The app checks whether you own Pro directly
+  on your device using Apple's StoreKit.</p>
 
   <h2>Crash diagnostics</h2>
   <p>AniBinge uses Firebase Crashlytics (a service provided by Google) to collect crash reports
   and diagnostic information so we can find and fix bugs. These reports may include your device
-  model, operating-system version, app version, and the technical stack trace of a crash. They
-  do <strong>not</strong> include your AniList credentials, your access token, or the contents
-  of your anime list. No advertising identifiers are collected and no App Tracking Transparency
-  (ATT) tracking is performed. See
+  model, operating-system version, app version, a random installation identifier created by
+  Crashlytics (it resets if you reinstall the app), and the technical details of a crash or
+  error. Like any internet request, the upload reveals your device's IP address to Google. Crash
+  reports do <strong>not</strong> include your AniList credentials, your access token, or the
+  contents of your anime list. No advertising identifiers are collected and no App Tracking
+  Transparency (ATT) tracking is performed. Crashlytics keeps crash reports for 90 days and then
+  deletes them automatically. See
   <a href="https://firebase.google.com/support/privacy">Firebase's privacy information</a>
   for how Google processes this data.</p>
 
   <h2>Episode metadata</h2>
-  <p>To show episode titles and filler/recap information, AniBinge fetches metadata from the
-  Jikan API (an unofficial MyAnimeList API). These requests contain only anime identifiers —
-  no personal information about you is sent.</p>
+  <p>To show episode titles and filler/recap information, AniBinge fetches public episode
+  metadata from a third-party anime database service. These requests contain only anime
+  identifiers; no account or personal information is sent, although, as with any internet
+  request, the service can see your device's IP address.</p>
+
+  <h2>Legal bases (EEA and UK users)</h2>
+  <p>We process data to provide the service you ask for, namely syncing and displaying your
+  AniList list (performance of a contract), and to keep the app stable through crash
+  diagnostics (our legitimate interest in fixing bugs, balanced against the minimal,
+  pseudonymous data involved). You can object to crash diagnostics at any time by contacting us.</p>
+
+  <h2>International transfers</h2>
+  <p>Google may process crash diagnostics in the United States and other countries. Google
+  relies on recognised safeguards for these transfers, such as the EU&ndash;U.S. Data Privacy
+  Framework and the European Commission's Standard Contractual Clauses.</p>
 
   <h2>Data retention and deletion</h2>
   <p>To remove your data from the app, tap <strong>Log Out</strong> in Settings. This deletes
-  the locally cached list and removes the stored AniList token from your device. To delete or
-  change the underlying list or your account itself, manage it directly on AniList at
-  <a href="https://anilist.co/settings">anilist.co/settings</a>.</p>
+  the locally cached list and removes the stored AniList token from your device. Deleting the
+  app removes everything it stored on your device. Crash reports are deleted automatically
+  after 90 days. To delete or change the underlying list or your account itself, manage it
+  directly on AniList at <a href="https://anilist.co/settings">anilist.co/settings</a>.</p>
+
+  <h2>Your rights</h2>
+  <p>Depending on where you live (including the EEA, the UK, and several U.S. states), you may
+  have the right to access, correct, delete, or receive a copy of your personal data, to
+  restrict or object to how it is processed, and to withdraw consent. Because we hold almost no
+  data about you, most requests are satisfied by logging out or managing your account on
+  AniList, but you can email
+  <a href="mailto:anibinge.official@gmail.com">anibinge.official@gmail.com</a> for anything else
+  and we will respond within 30 days. If you are in the EEA or UK, you also have the right to
+  complain to your local data protection authority.</p>
 
   <h2>Children</h2>
-  <p>AniBinge is rated 17+ and is not directed to children under 13. Some content reachable
-  through optional settings may be mature; mature content is disabled by default.</p>
+  <p>AniBinge is not directed to children under 13, or under the minimum age required in your
+  country. Mature content is hidden by default and can only be shown by changing a setting.</p>
 
   <h2>Changes to this policy</h2>
   <p>We may update this policy from time to time. Material changes will be reflected by the
